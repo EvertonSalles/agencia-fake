@@ -1,0 +1,196 @@
+*{
+font-family: arial;
+box-sizing: border-box;
+}
+
+body{
+   margin: 0;
+}
+
+header{
+  position: fixed;  
+  background-color:#F5F5F5;
+  width: 100%;
+  
+}
+
+.cabecalho{
+   margin-right: 200px;
+    color: #191970;
+    margin-top: 20px;
+}
+
+nav{
+   display: flex;   
+  justify-content:  space-evenly; 
+}
+   
+ul, li { 
+   display: flex;
+   list-style: none;
+   padding: 10px;
+   font-size: 20px;
+ }
+
+ #fale{
+   width: 180px;
+   height: 45px;
+   border-radius: 5px;
+   background-color: #191970;
+   color: white;
+   margin-left: 400px;
+   margin-top: 20px;
+   font-size: 17px;
+ }
+
+ #fale:hover{
+   background-color: #DB7093;
+ }
+
+ .titulo{
+   font-size: 21px;
+   margin-bottom: 0px;
+   letter-spacing: 8px;
+ }
+
+ h1{
+    color: #191970;
+    font-size: 60px;
+
+ }
+
+.container1{
+
+text-align:left;
+padding: 90px;
+display: flex;
+
+}
+.parte{
+   
+   width: 900px;
+   height: 350px;
+   margin-top: 100px;
+   font-size: 16px;
+   
+   margin-right: 20px;
+   
+}
+
+.imagem{
+text-align: right;
+   
+}
+   
+.agora{
+   width: 170px;
+   height: 60px;
+   margin-left: 20px;
+   background-color: #DB7093;
+   border-radius: 8px;
+   color: white;
+}
+
+.agora:hover{
+   background-color: #191970;
+}
+
+ .contate{
+    background-color: pink;
+    text-align:center;
+    width: 146px;
+    height: 36px;
+    padding: 10px;
+ }
+
+ .contate :hover{
+   background-color: blue;
+ }
+
+.negocio{
+   text-align: center;
+   font-size: 40px;
+  color: #191970;
+}
+
+ .container2{
+   display: flex;
+   text-align: center;
+   padding: 100px;
+   justify-content: center;
+
+ }
+ 
+ .site{
+   margin-right: 30px;
+   height: 250px;
+   width: 276px;
+   border: 1px solid red;
+   border-radius: 13px;
+ }
+
+ .site:hover{
+   background-color: #DB7093;
+ }
+
+ .app{
+   border: 1px solid red;
+   margin-right: 30px;
+   height: 250px;
+   width: 276px;
+   border-radius: 13px;
+ }
+
+.app:hover{
+   background-color: #DB7093;
+}
+
+ .digital{
+   border: 1px solid red;
+   margin-right: 30px;
+   border-radius: 13px;
+   height: 250px;
+   width: 276px;
+ }
+
+ .digital:hover{
+   background-color: #DB7093;
+ }
+
+
+i{
+   color: green;
+   font-size: 70px;
+
+}
+
+.botao2{
+   font-size: 10px;
+ width: 170px;
+ height: 50px;  
+}
+span{
+  
+   padding: 9px;
+   width: 120px;
+   height: 53px;
+
+}
+
+.whats{
+   display: flex;
+   flex-direction: column;
+   float: right;
+   position: sticky;
+   
+}
+
+
+ footer{
+  background-image: linear-gradient(#191970,#000000,#1C1C1C);
+  width: 100%;
+  height: 370px;
+  border-top: 4px solid red;
+  text-align: center;
+  color: white;
+ }
